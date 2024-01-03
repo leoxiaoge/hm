@@ -1,2 +1,12 @@
 import Globals from './globals'
-console.log(Globals)
+
+function init () {
+  console.log(Globals)
+}
+
+const hm = {
+  init,
+  version: Globals.version
+}
+
+export default hm
